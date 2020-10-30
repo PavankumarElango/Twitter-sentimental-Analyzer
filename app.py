@@ -4,7 +4,7 @@ from wtforms import Form, TextAreaField, validators
 #from sklearn.externals import joblib
 import os
 import numpy as np
-os.chdir(r"D:\spoj\tweet sentiment\New folder")
+#os.chdir(r"D:\spoj\tweet sentiment\New folder")
 import numpy as np
 import joblib
 app = Flask(__name__)
