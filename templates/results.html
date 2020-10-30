@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Tweet Classification</title>
+  <!-- add icon link -->
+        <link rel = "icon" href ="https://img.icons8.com/officel/16/000000/twitter.png" type = "image/x-icon"> 
+ <link rel="stylesheet" href='{{ url_for('static', filename='style.css') }}'>
+ <style>
+body {
+  background-image: url('https://cdn.vox-cdn.com/thumbor/mrgE2Vt3YIRKukC8QrtjFKeez1E=/0x0:900x600/920x613/filters:focal(538x309:682x453):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/53272735/twitter.0.0.png');
+}
+</style>
+ </head>
+ <body>
+ <h1>I'm Pavankumar</h1>
+ <h3>Your Tweet review:</h3>
+<div style="color:green">{{ content }}</div><h3>Prediction:</h3>
+<div style="color:gold">This tweet review is <strong>{{ prediction }}</strong>
+ (probability: <strong>{{ probability }}</strong>%).</div>
+ <div id="button">
+ <form action="/">
+ <input type=submit value="Submit another review">
+ </form>
+</div></body>
+</html>
