@@ -1,4 +1,4 @@
-pandas==1.05
+pandas>=1.05
 numpy==1.16.5
 sklearn==0.21.3
 nltk==3.4.5
